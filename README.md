@@ -16,21 +16,21 @@
 ## FUZZ过程
 1.在wireshark或burp抓包工具上面开启抓包后，使用遥控器控制连接机顶盒的电视机不断进行电视节目更换或相关操作
 
-*这个过程和使用burp对放开Intercept收集web的页面等非常相似
+* 这个过程和使用burp对放开Intercept收集web的页面等非常相似
 
 
 2.在wireshark抓包工具上面对操作过程的流量进行获取分析
 
 <img src="http://upload.ouliu.net/i/20171115171008lwigc.png"  />
 
-*PS：各地IPTV的实现型式都不一样，因些抓包分析也不一样。像江苏，四川，上海等地用的是组播 所以有的大佬抓出来的包没有rtsp协议，取而代之的都是rtp的协议
+* PS：各地IPTV的实现型式都不一样，因些抓包分析也不一样。像江苏，四川，上海等地用的是组播 所以有的大佬抓出来的包没有rtsp协议，取而代之的都是rtp的协议
 
 <img src="http://upload.ouliu.net/i/20171115194947bwj6m.jpeg"  />
 
 
 
 3.重点分析协议（IGMP、RTSP、HTTP）等
-*这些流量要认真查看
+* 这些流量要认真查看
 
 
 
@@ -47,7 +47,7 @@
 
 <img src="http://upload.ouliu.net/i/20171115170656ryiki.png"  />
 
-*这个我相信各位大佬不用小弟说都知道的
+* 这个我相信各位大佬不用小弟说都知道的
 
 
 
