@@ -1,10 +1,8 @@
 ## IPTV机顶盒FUZZ简述
 
-You can use the [editor on GitHub](https://github.com/really1lxw/FUZZ-IPTV/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+机顶盒进行一次PPPOE拨号，连接到电信的专用网络，盒子内置直播APP访问专网的指定地址实现节目观看。现在的连接方式我们不好抓包，最好是让观看的线路经过我们的电脑，这样抓包更直接有效。我的方法是将IPTV口的网线连接到电脑的网口，由电脑PPPOE拨号连接到电信的专网，再用电脑的无线网卡进行WIFI共享，IPTV盒子通过WIFI连接到电脑进行漏洞挖掘，这时候在电脑上运行抓包软件，就能获取相关源的连接地址.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### FUZZ流程
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
