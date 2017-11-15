@@ -59,4 +59,7 @@
 2.大部分的23端口是会存在默认口令，或者是未授权的
 3.通过telnet进入后肯定就是翻目录找远程服务器的IP(在这里推荐一个好用的软件'TV盒子助手'直接备份系统文件、源码等)
 ```
+<img src="http://upload.ouliu.net/i/20171115203536tyobl.png"  />
+
+
 <img src="http://upload.ouliu.net/i/20171115200822ueawm.png"  />
