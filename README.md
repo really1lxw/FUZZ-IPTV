@@ -10,3 +10,23 @@
 3.通过机顶盒设置连接到电脑开启的wifi（机顶盒设置弱口令123456）
 3.在电脑上面开启Wireshark或BURP等抓包工具
 ```
+
+## FUZZ过程
+1.在wireshark或burp抓包工具上面开启抓包后，使用遥控器控制连接机顶盒的电视机不断进行电视节目更换或相关操作
+
+2.在wireshark抓包工具上面对操作过程的流量进行获取分析
+
+<img src=http://chuantu.biz/t6/141/1510737027x2088777475.png />
+
+3.重点分析协议（IGMP、RTSP、HTTP）等
+
+4.对流量内的请求地址进行分析比对后进行保存（留着最后FUZZ攻击）
+
+5.IGMP和RTSP协议存在但不限于泄露源播放地址、远程服务器等敏感信息泄露漏洞
+
+<img src=http://chuantu.biz/t6/141/1510737098x2918527146.png />
+
+6.HTTP协议存在但不限于WEB TOP10漏洞，深入即可对远程服务器进行攻击
+
+<img src="http://upload.ouliu.net/i/20171115170656ryiki.png"  />
+
