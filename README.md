@@ -16,7 +16,7 @@
 
 2.在wireshark抓包工具上面对操作过程的流量进行获取分析
 
-<img src=http://chuantu.biz/t6/141/1510737027x2088777475.png />
+<img src="http://upload.ouliu.net/i/20171115171008lwigc.png"  />
 
 3.重点分析协议（IGMP、RTSP、HTTP）等
 
@@ -24,7 +24,7 @@
 
 5.IGMP和RTSP协议存在但不限于泄露源播放地址、远程服务器等敏感信息泄露漏洞
 
-<img src=http://chuantu.biz/t6/141/1510737098x2918527146.png />
+<img src="http://upload.ouliu.net/i/2017111517085897w2o.jpeg"  />
 
 6.HTTP协议存在但不限于WEB TOP10漏洞，深入即可对远程服务器进行攻击
 
