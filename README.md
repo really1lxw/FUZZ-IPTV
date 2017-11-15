@@ -20,6 +20,10 @@
 
 <img src="http://upload.ouliu.net/i/20171115171008lwigc.png"  />
 
+`PS：各地IPTV的实现型式都不一样，因些抓包分析也不一样。像江苏，四川，上海等地用的是组播 所以有的大佬抓出来的包没有rtsp协议，取而代之的都是rtp的协议`
+<img src="http://upload.ouliu.net/i/20171115194947bwj6m.jpeg"  />
+
+
 3.重点分析协议（IGMP、RTSP、HTTP）等
 
 4.对流量内的请求地址进行分析比对后进行保存（留着最后FUZZ攻击）
